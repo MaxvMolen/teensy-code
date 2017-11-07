@@ -218,8 +218,8 @@ void setup() {
     // 2 = DMP configuration updates failed
     // (if it's going to break, usually the code will be 1)
     //Serial.print(F("DMP Initialization failed (code "));
-    Serial.print(devStatus);
-    Serial.println(F(")"));
+    //Serial.print(devStatus);
+    //Serial.println(F(")"));
   }
   // configure LED for output
   pinMode(LED_PIN, OUTPUT);
